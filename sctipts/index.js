@@ -160,6 +160,8 @@ function forSort(){
     function loadData(values){
         const container = document.getElementById("itemContainer");
         container.innerHTML = '';
+        const drawing = document.getElementById("drawing-container");
+        drawing.innerHTML = '';
         var arrayOfObjects = [ ...values ];
             
         
